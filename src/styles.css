@@ -8,7 +8,7 @@
 :root{
     --main-color: #FFA500;
     --text-color: aliceblue;
-    --text-color2: #a5967f;
+    --text-color2: #b9b8b5;
 }
 
 body{
@@ -64,4 +64,32 @@ body{
 
 .btn-box .btn:hover{
     color: var(--main-color);
+}
+
+
+
+@media (max-width: 1200px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media (max-width: 991px){
+    section{
+        padding: 10rem 4% 2rem;
+    }
+
+    .first-content{
+        padding: 0 4%;
+    }
+
+    .footer{
+        padding: 2rem 4%;
+    }
+}
+
+@media (max-width: 446px){
+    section{
+        padding: 10rem 2% 1rem;
+    }
 }

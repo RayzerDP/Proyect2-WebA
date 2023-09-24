@@ -2,14 +2,19 @@
     font-weight: bold;
     font-size: 1.1rem;
     animation: boing 1s ease-in-out;
-
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     margin-left: 1rem;
+    font-size:  1.1rem;
 }
 .navbar-expand-lg .navbar-nav .nav-link.active-link{
-    color: var(--main-color);
+    color: var(--text-color);
 }
+
+.navbar-expand-lg{
+    background-color: var(--main-color)!important;
+}
+
 
 @keyframes boing {
     0% {

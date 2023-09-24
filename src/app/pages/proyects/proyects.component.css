@@ -1,0 +1,15 @@
+.content-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+form{
+    width: 60%;
+}
+
+.form-label{
+    color: var(--text-color2);
+    font-weight: 700;
+}
